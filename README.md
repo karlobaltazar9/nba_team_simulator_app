@@ -5,10 +5,10 @@ I created a webapp to simulate the win probability of any team. I used data gath
 
 
 ```bash
-# from the project root
+# install requirements in project root
 pip install -r requirements.txt
 
-# 1. data pipeline (run in R, in this order, from the project root)
+# 1. data pipeline (Run in R, in this sequential order)
 Rscript R/01_clean_data.R
 Rscript R/02_elo_ratings.R
 Rscript R/03_zscore_features.R
