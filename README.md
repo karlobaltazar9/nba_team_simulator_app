@@ -25,3 +25,10 @@ FastAPI process, so you don't need a separate dev server or to configure a
 CORS origin. If you'd rather run the frontend separately (e.g. opening
 `frontend/index.html` directly as a file), fill in the "API base" field at
 the top of the page with `http://localhost:8000`.
+
+
+# How it works
+As an avid basketball fan, I always wondered what would happen if I took two NBA teams from any season ever, and face them head to head in a matchup. However, when approaching this problem was that basketball has evolved, teams has shoot more threes, had faster paced and rules had changed. I needed to find a way around this throughout my project.
+
+### Step 1: Cleaning the data
+I utilised data gathered from kaggle.com[
