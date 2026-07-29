@@ -20,9 +20,7 @@ python/train_model.py
 uvicorn app.backend:app --reload --app-dir .
 ```
 
-Then open **http://localhost:8000** — the frontend is served by the same
-FastAPI process, so you don't need a separate dev server or to configure a
-CORS origin. If you'd rather run the frontend separately (e.g. opening
+Then open **http://localhost:8000**. Alternatively, you can run the frontend separately (e.g. opening
 `frontend/index.html` directly as a file), fill in the "API base" field at
 the top of the page with `http://localhost:8000`.
 
