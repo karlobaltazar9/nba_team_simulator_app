@@ -9,12 +9,12 @@ I created a webapp to simulate the win probability of any team. I used data gath
 pip install -r requirements.txt
 
 # 1. data pipeline (Run in R, in this sequential order)
-Rscript R/01_clean_data.R
-Rscript R/02_elo_ratings.R
-Rscript R/03_zscore_features.R
+R/01_clean_data.R
+R/02_elo_ratings.R
+R/03_zscore_features.R
 
 # 2. train the model
-python python/train_model.py
+python/train_model.py
 
 # 3. start the app (serves both the API and the frontend at the same address)
 uvicorn app.backend:app --reload --app-dir .
